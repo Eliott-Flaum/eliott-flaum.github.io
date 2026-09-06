@@ -2,15 +2,15 @@
    Tokens
 --------------------------------------------- */
 :root {
-  --bg: #F3F1F6;
+  --bg: #FAF6EE;
   --ink: #211E2B;
   --ink-soft: #5C5568;
   --violet: #6E5E86;
   --blue: #52708C;
   --rose: #B5758C;
   --line: #DAD4E3;
-  --serif: "Newsreader", Georgia, serif;
-  --sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --measure: 640px;
 }
 
@@ -61,26 +61,6 @@ a:hover { border-color: var(--violet); color: var(--rose); }
 .hero {
   padding: 110px 0 80px;
   border-bottom: 1px solid var(--line);
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-motif {
-  position: absolute;
-  top: -40px;
-  right: -60px;
-  width: 460px;
-  height: auto;
-  z-index: 0;
-  opacity: 0.9;
-  pointer-events: none;
-}
-
-@media (max-width: 900px) {
-  .hero-motif { width: 300px; top: -10px; right: -100px; opacity: 0.6; }
-}
-@media (max-width: 600px) {
-  .hero-motif { display: none; }
 }
 
 .hero-eyebrow {
